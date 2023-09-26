@@ -1,0 +1,1 @@
+export {CardEntrevistas} from "./CardEntrevistas"

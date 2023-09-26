@@ -1,0 +1,849 @@
+.text-field {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 320px;
+}
+
+.text-field .input {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.text-field .value {
+  flex: 1;
+  position: relative;
+}
+
+.text-field .text-wrapper {
+  color: var(--textprimary);
+  flex: 1;
+  font-family: var(--desktop-body2-font-family);
+  font-size: var(--desktop-body2-font-size);
+  font-style: var(--desktop-body2-font-style);
+  font-weight: var(--desktop-body2-font-weight);
+  letter-spacing: var(--desktop-body2-letter-spacing);
+  line-height: var(--desktop-body2-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.text-field .mask-label {
+  background-color: var(--backgroundpaper);
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 5px;
+  width: 34px;
+}
+
+.text-field .label {
+  font-family: var(--components-inputlabel-font-family);
+  font-size: var(--components-inputlabel-font-size);
+  font-style: var(--components-inputlabel-font-style);
+  font-weight: var(--components-inputlabel-font-weight);
+  letter-spacing: var(--components-inputlabel-letter-spacing);
+  line-height: var(--components-inputlabel-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.text-field .content {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 8px;
+  position: relative;
+}
+
+.text-field .div {
+  color: var(--textprimary);
+  flex: 1;
+  font-family: var(--desktop-body2-font-family);
+  font-size: var(--desktop-body2-font-size);
+  font-style: var(--desktop-body2-font-style);
+  font-weight: var(--desktop-body2-font-weight);
+  letter-spacing: var(--desktop-body2-letter-spacing);
+  line-height: var(--desktop-body2-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.text-field .container {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  position: relative;
+}
+
+.text-field .label-focus {
+  font-family: var(--components-inputlabel-font-family);
+  font-size: var(--components-inputlabel-font-size);
+  font-style: var(--components-inputlabel-font-style);
+  font-weight: var(--components-inputlabel-font-weight);
+  letter-spacing: var(--components-inputlabel-letter-spacing);
+  line-height: var(--components-inputlabel-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.text-field .value-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.text-field .value-2 {
+  flex: 1;
+  font-family: var(--desktop-body2-font-family);
+  font-size: var(--desktop-body2-font-size);
+  font-style: var(--desktop-body2-font-style);
+  font-weight: var(--desktop-body2-font-weight);
+  letter-spacing: var(--desktop-body2-letter-spacing);
+  line-height: var(--desktop-body2-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.text-field .space-m {
+  position: relative;
+  width: 1px;
+}
+
+.text-field .container-2 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  position: relative;
+}
+
+.text-field .label-focus-2 {
+  position: relative;
+}
+
+.text-field .content-2 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.text-field .label-placeholder {
+  flex: 1;
+  font-family: var(--desktop-body2-font-family);
+  font-size: var(--desktop-body2-font-size);
+  font-style: var(--desktop-body2-font-style);
+  font-weight: var(--desktop-body2-font-weight);
+  letter-spacing: var(--desktop-body2-letter-spacing);
+  line-height: var(--desktop-body2-line-height);
+  position: relative;
+}
+
+.text-field .top-space {
+  align-self: stretch;
+  position: relative;
+  width: 100%;
+}
+
+.text-field .div-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.text-field .value-3 {
+  flex: 1;
+  font-family: var(--desktop-body2-font-family);
+  font-size: var(--desktop-body2-font-size);
+  font-style: var(--desktop-body2-font-style);
+  font-weight: var(--desktop-body2-font-weight);
+  letter-spacing: var(--desktop-body2-letter-spacing);
+  line-height: var(--desktop-body2-line-height);
+  position: relative;
+}
+
+.text-field .bottom-space {
+  align-self: stretch;
+  height: 2.5px;
+  position: relative;
+  width: 100%;
+}
+
+.text-field .underline {
+  left: 0;
+  position: absolute;
+  width: 320px;
+}
+
+.text-field.has-value-true {
+  align-items: flex-start;
+}
+
+.text-field.outlined {
+  align-items: flex-start;
+}
+
+.text-field.hovered {
+  align-items: flex-start;
+}
+
+.text-field.disabled {
+  align-items: flex-start;
+}
+
+.text-field.error {
+  align-items: flex-start;
+}
+
+.text-field.filled {
+  align-items: flex-start;
+}
+
+.text-field.s {
+  align-items: flex-start;
+}
+
+.text-field.focused {
+  align-items: flex-start;
+}
+
+.text-field.standard.hovered {
+  justify-content: flex-end;
+}
+
+.text-field.focused.standard {
+  justify-content: flex-end;
+}
+
+.text-field.standard.disabled {
+  justify-content: flex-end;
+}
+
+.text-field.enabled.filled {
+  border-radius: 8px;
+}
+
+.text-field.standard.error {
+  justify-content: flex-end;
+}
+
+.text-field.standard.enabled.m {
+  justify-content: center;
+}
+
+.text-field.enabled.s.has-value-true.outlined {
+  border-radius: 8px;
+}
+
+.text-field.standard.enabled.has-value-false.m {
+  align-items: center;
+}
+
+.text-field.outlined .input {
+  border-radius: 8px;
+}
+
+.text-field.filled .input {
+  border-radius: 8px;
+}
+
+.text-field.enabled.outlined .input {
+  border: 1px solid;
+  border-color: var(--componentsinputoutlined);
+}
+
+.text-field.outlined.disabled .input {
+  border: 1px solid;
+  border-color: var(--actiondisabledbackground);
+}
+
+.text-field.hovered.outlined .input {
+  border: 1px solid;
+  border-color: var(--textprimary);
+}
+
+.text-field.focused.filled .input {
+  background-color: var(--transparentgrey-16);
+}
+
+.text-field.m.outlined .input {
+  padding: 0px 14px 16px 0px;
+}
+
+.text-field.filled.disabled .input {
+  background-color: var(--actiondisabledbackground);
+}
+
+.text-field.focused.outlined .input {
+  border: 2px solid;
+  border-color: var(--textprimary);
+}
+
+.text-field.s.outlined .input {
+  padding: 0px 14px 8px 0px;
+}
+
+.text-field.filled.error .input {
+  background-color: var(--transparenterror-8);
+}
+
+.text-field.enabled.filled .input {
+  background-color: var(--transparentgrey-8);
+}
+
+.text-field.outlined.error .input {
+  border: 2px solid;
+  border-color: var(--errormain);
+}
+
+.text-field.hovered.filled .input {
+  background-color: var(--transparentgrey-16);
+}
+
+.text-field.focused.s.filled .input {
+  padding: 0px 12px 4px 0px;
+}
+
+.text-field.focused.filled.m .input {
+  padding: 0px 12px 8px 0px;
+}
+
+.text-field.filled.has-value-true.m .input {
+  padding: 0px 12px 8px 0px;
+}
+
+.text-field.filled.s.has-value-true .input {
+  padding: 0px 12px 4px 0px;
+}
+
+.text-field.filled.has-value-false.s.disabled .input {
+  padding: 0px 12px 12px 0px;
+}
+
+.text-field.enabled.has-value-false.filled.m .input {
+  padding: 0px 12px 16px 0px;
+}
+
+.text-field.enabled.s.filled.has-value-false .input {
+  padding: 0px 12px 12px 0px;
+}
+
+.text-field.m.has-value-false.filled.error .input {
+  padding: 0px 12px 16px 0px;
+}
+
+.text-field.filled.has-value-false.s.error .input {
+  padding: 0px 12px 12px 0px;
+}
+
+.text-field.filled.has-value-false.s.hovered .input {
+  padding: 0px 12px 12px 0px;
+}
+
+.text-field.m.has-value-false.filled.disabled .input {
+  padding: 0px 12px 16px 0px;
+}
+
+.text-field.has-value-false.filled.m.hovered .input {
+  padding: 0px 12px 16px 0px;
+}
+
+.text-field.hovered .value {
+  color: var(--textprimary);
+  font-family: var(--desktop-body2-font-family);
+  font-size: var(--desktop-body2-font-size);
+  font-style: var(--desktop-body2-font-style);
+  font-weight: var(--desktop-body2-font-weight);
+  letter-spacing: var(--desktop-body2-letter-spacing);
+  line-height: var(--desktop-body2-line-height);
+  margin-top: -1px;
+}
+
+.text-field.disabled .value {
+  color: var(--actiondisabled);
+  font-family: var(--desktop-body2-font-family);
+  font-size: var(--desktop-body2-font-size);
+  font-style: var(--desktop-body2-font-style);
+  font-weight: var(--desktop-body2-font-weight);
+  letter-spacing: var(--desktop-body2-letter-spacing);
+  line-height: var(--desktop-body2-line-height);
+  margin-top: -1px;
+}
+
+.text-field.focused .value {
+  align-items: flex-start;
+  display: flex;
+  flex-grow: 1;
+  gap: 8px;
+}
+
+.text-field.enabled .value {
+  color: var(--textprimary);
+  font-family: var(--desktop-body2-font-family);
+  font-size: var(--desktop-body2-font-size);
+  font-style: var(--desktop-body2-font-style);
+  font-weight: var(--desktop-body2-font-weight);
+  letter-spacing: var(--desktop-body2-letter-spacing);
+  line-height: var(--desktop-body2-line-height);
+  margin-top: -1px;
+}
+
+.text-field.error .value {
+  color: var(--textprimary);
+  font-family: var(--desktop-body2-font-family);
+  font-size: var(--desktop-body2-font-size);
+  font-style: var(--desktop-body2-font-style);
+  font-weight: var(--desktop-body2-font-weight);
+  letter-spacing: var(--desktop-body2-letter-spacing);
+  line-height: var(--desktop-body2-line-height);
+  margin-top: -2px;
+}
+
+.text-field.s .text-wrapper {
+  height: 24px;
+  white-space: nowrap;
+}
+
+.text-field.has-value-true .label-focus-4 {
+  align-items: center;
+  display: inline-flex;
+  left: 14px;
+  padding: 0px 2px 0px 0px;
+  position: absolute;
+  top: -5px;
+}
+
+.text-field.filled .label-focus-4 {
+  margin-top: -1px;
+}
+
+.text-field.focused .label-focus-4 {
+  align-items: center;
+  display: inline-flex;
+  left: 14px;
+  padding: 0px 2px 0px 0px;
+  position: absolute;
+  top: -5px;
+}
+
+.text-field.enabled.has-value-false .label-focus-4 {
+  color: var(--textdisabled);
+  flex: 1;
+  font-family: var(--desktop-body2-font-family);
+  font-size: var(--desktop-body2-font-size);
+  font-style: var(--desktop-body2-font-style);
+  font-weight: var(--desktop-body2-font-weight);
+  letter-spacing: var(--desktop-body2-letter-spacing);
+  line-height: var(--desktop-body2-line-height);
+  position: relative;
+}
+
+.text-field.has-value-false.error .label-focus-4 {
+  color: var(--textdisabled);
+  flex: 1;
+  font-family: var(--desktop-body2-font-family);
+  font-size: var(--desktop-body2-font-size);
+  font-style: var(--desktop-body2-font-style);
+  font-weight: var(--desktop-body2-font-weight);
+  letter-spacing: var(--desktop-body2-letter-spacing);
+  line-height: var(--desktop-body2-line-height);
+  position: relative;
+}
+
+.text-field.has-value-false.hovered .label-focus-4 {
+  color: var(--textdisabled);
+  flex: 1;
+  font-family: var(--desktop-body2-font-family);
+  font-size: var(--desktop-body2-font-size);
+  font-style: var(--desktop-body2-font-style);
+  font-weight: var(--desktop-body2-font-weight);
+  letter-spacing: var(--desktop-body2-letter-spacing);
+  line-height: var(--desktop-body2-line-height);
+  position: relative;
+}
+
+.text-field.has-value-false.disabled .label-focus-4 {
+  color: var(--actiondisabled);
+  flex: 1;
+  font-family: var(--desktop-body2-font-family);
+  font-size: var(--desktop-body2-font-size);
+  font-style: var(--desktop-body2-font-style);
+  font-weight: var(--desktop-body2-font-weight);
+  letter-spacing: var(--desktop-body2-letter-spacing);
+  line-height: var(--desktop-body2-line-height);
+  position: relative;
+}
+
+.text-field.enabled.has-value-false.outlined .label-focus-4 {
+  margin-top: -1px;
+}
+
+.text-field.outlined.has-value-false.disabled .label-focus-4 {
+  margin-top: -1px;
+}
+
+.text-field.has-value-false.outlined.hovered .label-focus-4 {
+  margin-top: -1px;
+}
+
+.text-field.outlined.has-value-false.error .label-focus-4 {
+  margin-top: -2px;
+}
+
+.text-field.hovered .label {
+  color: var(--textsecondary);
+}
+
+.text-field.disabled .label {
+  color: var(--actiondisabled);
+}
+
+.text-field.focused .label {
+  color: var(--textprimary);
+}
+
+.text-field.enabled .label {
+  color: var(--textsecondary);
+}
+
+.text-field.error .label {
+  color: var(--errormain);
+}
+
+.text-field.s .container {
+  gap: 2px;
+}
+
+.text-field.m .container {
+  gap: 3px;
+}
+
+.text-field.hovered .label-focus {
+  color: var(--textsecondary);
+}
+
+.text-field.disabled .label-focus {
+  color: var(--actiondisabled);
+}
+
+.text-field.focused .label-focus {
+  color: var(--textprimary);
+}
+
+.text-field.enabled .label-focus {
+  color: var(--textsecondary);
+}
+
+.text-field.error .label-focus {
+  color: var(--errormain);
+}
+
+.text-field.hovered .value-2 {
+  color: var(--textprimary);
+}
+
+.text-field.disabled .value-2 {
+  color: var(--actiondisabled);
+}
+
+.text-field.focused .value-2 {
+  color: var(--textprimary);
+}
+
+.text-field.enabled .value-2 {
+  color: var(--textprimary);
+}
+
+.text-field.error .value-2 {
+  color: var(--textprimary);
+}
+
+.text-field.s .space-m {
+  height: 38px;
+}
+
+.text-field.m .space-m {
+  height: 39px;
+}
+
+.text-field.has-value-true .label-focus-2 {
+  font-family: var(--components-inputlabel-font-family);
+  font-size: var(--components-inputlabel-font-size);
+  font-style: var(--components-inputlabel-font-style);
+  font-weight: var(--components-inputlabel-font-weight);
+  letter-spacing: var(--components-inputlabel-letter-spacing);
+  line-height: var(--components-inputlabel-line-height);
+  margin-top: -1px;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.text-field.focused .label-focus-2 {
+  color: var(--textprimary);
+  font-family: var(--components-inputlabel-font-family);
+  font-size: var(--components-inputlabel-font-size);
+  font-style: var(--components-inputlabel-font-style);
+  font-weight: var(--components-inputlabel-font-weight);
+  letter-spacing: var(--components-inputlabel-letter-spacing);
+  line-height: var(--components-inputlabel-line-height);
+  margin-top: -1px;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.text-field.enabled.has-value-true .label-focus-2 {
+  color: var(--textsecondary);
+}
+
+.text-field.enabled.has-value-false .label-focus-2 {
+  align-self: stretch;
+  height: 13.5px;
+  width: 100%;
+}
+
+.text-field.hovered.has-value-true .label-focus-2 {
+  color: var(--textsecondary);
+}
+
+.text-field.has-value-false.error .label-focus-2 {
+  align-self: stretch;
+  height: 13.5px;
+  width: 100%;
+}
+
+.text-field.has-value-false.hovered .label-focus-2 {
+  align-self: stretch;
+  height: 13.5px;
+  width: 100%;
+}
+
+.text-field.has-value-true.error .label-focus-2 {
+  color: var(--errormain);
+}
+
+.text-field.has-value-false.disabled .label-focus-2 {
+  align-self: stretch;
+  height: 13.5px;
+  width: 100%;
+}
+
+.text-field.has-value-true.disabled .label-focus-2 {
+  color: var(--actiondisabled);
+}
+
+.text-field.s .content-2 {
+  height: 29px;
+  padding: 0px 0px 2.5px;
+}
+
+.text-field.m .content-2 {
+  height: 32px;
+  padding: 0px 0px 4px;
+}
+
+.text-field.hovered .label-placeholder {
+  color: var(--textdisabled);
+}
+
+.text-field.disabled .label-placeholder {
+  color: var(--actiondisabled);
+}
+
+.text-field.focused .label-placeholder {
+  color: var(--textdisabled);
+}
+
+.text-field.enabled .label-placeholder {
+  color: var(--textdisabled);
+}
+
+.text-field.error .label-placeholder {
+  color: var(--textdisabled);
+}
+
+.text-field.has-value-true .top-space {
+  height: 1.5px;
+}
+
+.text-field.focused .top-space {
+  height: 1.5px;
+}
+
+.text-field.enabled.has-value-false .top-space {
+  height: 2.5px;
+}
+
+.text-field.has-value-false.error .top-space {
+  height: 2.5px;
+}
+
+.text-field.has-value-false.hovered .top-space {
+  height: 2.5px;
+}
+
+.text-field.has-value-false.disabled .top-space {
+  height: 2.5px;
+}
+
+.text-field.m .div-wrapper {
+  padding: 0px 0px 4px;
+}
+
+.text-field.s .div-wrapper {
+  padding: 0px 0px 2.5px;
+}
+
+.text-field.focused .div-wrapper {
+  flex: 0 0 auto;
+}
+
+.text-field.s.error .div-wrapper {
+  height: 29px;
+}
+
+.text-field.enabled.m .div-wrapper {
+  height: 32px;
+}
+
+.text-field.s.hovered .div-wrapper {
+  height: 29px;
+}
+
+.text-field.hovered.m .div-wrapper {
+  height: 32px;
+}
+
+.text-field.enabled.s .div-wrapper {
+  height: 29px;
+}
+
+.text-field.m.error .div-wrapper {
+  height: 32px;
+}
+
+.text-field.m.disabled .div-wrapper {
+  height: 32px;
+}
+
+.text-field.s.disabled .div-wrapper {
+  flex: 0 0 auto;
+}
+
+.text-field.hovered .value-3 {
+  color: var(--textprimary);
+}
+
+.text-field.disabled .value-3 {
+  color: var(--actiondisabled);
+}
+
+.text-field.error .value-3 {
+  color: var(--textprimary);
+}
+
+.text-field.enabled .value-3 {
+  color: var(--textprimary);
+}
+
+.text-field.focused .value-3 {
+  color: var(--textprimary);
+  margin-top: -1px;
+}
+
+.text-field.s.disabled .value-3 {
+  margin-top: -1px;
+}
+
+.text-field.hovered .underline {
+  background-color: var(--textprimary);
+  height: 1px;
+}
+
+.text-field.disabled .underline {
+  background-color: var(--actiondisabledbackground);
+  height: 1px;
+}
+
+.text-field.error .underline {
+  background-color: var(--errormain);
+  height: 2px;
+}
+
+.text-field.enabled .underline {
+  background-color: var(--componentsinputunderline);
+  height: 1px;
+  opacity: 0.56;
+}
+
+.text-field.focused .underline {
+  background-color: var(--textprimary);
+  height: 2px;
+}
+
+.text-field.s.hovered .underline {
+  top: 44px;
+}
+
+.text-field.focused.m .underline {
+  top: 40px;
+}
+
+.text-field.focused.s .underline {
+  top: 39px;
+}
+
+.text-field.hovered.m .underline {
+  top: 47px;
+}
+
+.text-field.m.error .underline {
+  top: 46px;
+}
+
+.text-field.s.error .underline {
+  top: 43px;
+}
+
+.text-field.enabled.m .underline {
+  top: 47px;
+}
+
+.text-field.enabled.s .underline {
+  top: 44px;
+}
+
+.text-field.m.disabled .underline {
+  top: 47px;
+}
+
+.text-field.has-value-false.s.disabled .underline {
+  top: 44px;
+}
+
+.text-field.s.has-value-true.disabled .underline {
+  top: 40px;
+}

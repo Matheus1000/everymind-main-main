@@ -1,0 +1,9 @@
+.title h2 {
+    color: #212b36;
+    margin-top: -35px;
+}
+ label{
+    color: #212b36;
+display: flex;
+font-size: 12px;
+}

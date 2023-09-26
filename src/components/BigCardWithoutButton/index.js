@@ -1,0 +1,1 @@
+export { BigCardWithoutButton } from "./BigCardWithoutButton";

@@ -1,0 +1,565 @@
+.button {
+  align-items: center;
+  border-radius: 8px;
+  display: inline-flex;
+  gap: 8px;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.button .label-2 {
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button.variant-1-outlined.state-12-disabled {
+  border: 1px solid;
+  border-color: var(--actiondisabledbackground);
+}
+
+.button.variant-1-soft.state-12-disabled {
+  background-color: var(--actiondisabledbackground);
+}
+
+.button.variant-1-soft.size-7-m {
+  padding: 0px 12px 6px 0px;
+}
+
+.button.size-7-m.variant-1-outlined {
+  padding: 0px 12px 6px 0px;
+}
+
+.button.variant-1-soft.size-7-s {
+  padding: 0px 8px 4px 0px;
+}
+
+.button.variant-1-text.size-7-s {
+  padding: 0px 4px 4px 0px;
+}
+
+.button.state-12-hovered.variant-1-outlined {
+  border: 1.5px solid;
+}
+
+.button.variant-1-text.size-7-l {
+  padding: 0px 10px 11px 0px;
+}
+
+.button.size-7-s.variant-1-contained {
+  padding: 0px 8px 4px 0px;
+}
+
+.button.state-12-disabled.variant-1-contained {
+  background-color: var(--actiondisabledbackground);
+}
+
+.button.size-7-l.variant-1-contained {
+  padding: 0px 16px 11px 0px;
+}
+
+.button.variant-1-text.size-7-m {
+  padding: 0px 8px 6px 0px;
+}
+
+.button.variant-1-soft.size-7-l {
+  padding: 0px 16px 11px 0px;
+}
+
+.button.size-7-m.variant-1-contained {
+  padding: 0px 12px 6px 0px;
+}
+
+.button.state-12-enabled.variant-1-outlined {
+  border: 1px solid;
+}
+
+.button.size-7-l.variant-1-outlined {
+  padding: 0px 16px 11px 0px;
+}
+
+.button.size-7-s.variant-1-outlined {
+  padding: 0px 8px 4px 0px;
+}
+
+.button.color-primary.variant-1-contained.state-12-enabled {
+  background-color: var(--primarymain);
+}
+
+.button.state-12-hovered.variant-1-contained.color-warning {
+  background-color: var(--warningdark);
+  box-shadow: var(--shadow-warning);
+}
+
+.button.color-primary.state-12-hovered.variant-1-outlined {
+  background-color: var(--transparentprimary-8);
+  border-color: var(--primarymain);
+}
+
+.button.color-success.variant-1-soft.state-12-hovered {
+  background-color: var(--transparentsuccess-16);
+}
+
+.button.color-secondary.state-12-hovered.variant-1-outlined {
+  background-color: var(--transparentsecondary-8);
+  border-color: var(--secondarymain);
+}
+
+.button.color-error.state-12-hovered.variant-1-contained {
+  background-color: var(--errordark);
+  box-shadow: var(--shadow-error);
+}
+
+.button.color-success.variant-1-soft.state-12-enabled {
+  background-color: var(--transparentsuccess-8);
+}
+
+.button.variant-1-text.color-error.state-12-hovered {
+  background-color: var(--transparenterror-8);
+}
+
+.button.state-12-enabled.variant-1-contained.color-warning {
+  background-color: var(--warningmain);
+}
+
+.button.color-error.state-12-enabled.variant-1-outlined {
+  border-color: var(--transparenterror-48);
+}
+
+.button.color-secondary.variant-1-contained.state-12-enabled {
+  background-color: var(--secondarymain);
+  border: 1px solid;
+  border-color: var(--secondarymain);
+}
+
+.button.variant-1-text.state-12-hovered.color-info {
+  background-color: var(--transparentinfo-8);
+}
+
+.button.state-12-hovered.color-inherit.variant-1-outlined {
+  background-color: var(--transparentgrey-8);
+  border-color: var(--textprimary);
+}
+
+.button.state-12-hovered.variant-1-contained.color-info {
+  background-color: var(--infodark);
+  box-shadow: var(--shadow-info);
+}
+
+.button.color-success.state-12-hovered.variant-1-outlined {
+  background-color: var(--transparentsuccess-8);
+  border-color: var(--successmain);
+}
+
+.button.state-12-enabled.color-inherit.variant-1-contained {
+  background-color: var(--componentsbuttoncontainedinheritbg);
+}
+
+.button.variant-1-soft.color-warning.state-12-enabled {
+  background-color: var(--transparentwarning-8);
+}
+
+.button.state-12-enabled.variant-1-outlined.color-info {
+  border-color: var(--transparentinfo-48);
+}
+
+.button.variant-1-soft.color-inherit.state-12-enabled {
+  background-color: var(--transparentgrey-8);
+}
+
+.button.variant-1-soft.state-12-hovered.color-inherit {
+  background-color: var(--transparentgrey-24);
+}
+
+.button.color-success.state-12-hovered.variant-1-contained {
+  background-color: var(--successdark);
+  box-shadow: var(--shadow-success);
+}
+
+.button.color-primary.variant-1-outlined.state-12-enabled {
+  border-color: var(--transparentprimary-48);
+}
+
+.button.color-info.variant-1-soft.state-12-enabled {
+  background-color: var(--transparentinfo-8);
+}
+
+.button.variant-1-text.state-12-hovered.color-warning {
+  background-color: var(--transparentwarning-8);
+}
+
+.button.variant-1-text.color-secondary.state-12-hovered {
+  background-color: var(--transparentsecondary-8);
+}
+
+.button.variant-1-text.color-success.state-12-hovered {
+  background-color: var(--transparentsuccess-8);
+}
+
+.button.color-error.state-12-hovered.variant-1-outlined {
+  background-color: var(--transparenterror-8);
+  border-color: var(--errormain);
+}
+
+.button.color-secondary.state-12-hovered.variant-1-contained {
+  background-color: var(--secondarydark);
+  box-shadow: var(--shadow-secondary);
+}
+
+.button.color-primary.state-12-hovered.variant-1-contained {
+  background-color: var(--primarydark);
+  box-shadow: var(--shadow-primary);
+}
+
+.button.state-12-hovered.variant-1-outlined.color-warning {
+  background-color: var(--transparentwarning-8);
+  border-color: var(--warningmain);
+}
+
+.button.state-12-hovered.color-inherit.variant-1-contained {
+  background-color: var(--componentsbuttoncontainedinheritbghover);
+}
+
+.button.variant-1-soft.state-12-hovered.color-info {
+  background-color: var(--transparentinfo-16);
+}
+
+.button.state-12-hovered.variant-1-outlined.color-info {
+  background-color: var(--transparentinfo-8);
+  border-color: var(--infomain);
+}
+
+.button.color-success.state-12-enabled.variant-1-outlined {
+  border-color: var(--transparentsuccess-48);
+}
+
+.button.color-secondary.variant-1-outlined.state-12-enabled {
+  border-color: var(--transparentsecondary-48);
+}
+
+.button.color-error.state-12-enabled.variant-1-contained {
+  background-color: var(--errormain);
+  border: 1px solid;
+  border-color: var(--errormain);
+}
+
+.button.state-12-enabled.variant-1-outlined.color-warning {
+  border-color: var(--transparentwarning-48);
+}
+
+.button.color-secondary.state-12-enabled.variant-1-soft {
+  background-color: var(--transparentsecondary-8);
+}
+
+.button.variant-1-text.state-12-hovered.color-inherit {
+  background-color: var(--transparentgrey-16);
+}
+
+.button.state-12-enabled.color-inherit.variant-1-outlined {
+  border-color: var(--componentsbuttonoutlined);
+}
+
+.button.color-error.variant-1-soft.state-12-enabled {
+  background-color: var(--transparenterror-8);
+}
+
+.button.color-success.state-12-enabled.variant-1-contained {
+  background-color: var(--successmain);
+}
+
+.button.variant-1-text.color-primary.state-12-hovered {
+  background-color: var(--transparentprimary-8);
+}
+
+.button.state-12-enabled.variant-1-contained.color-info {
+  background-color: var(--infomain);
+}
+
+.button.color-error.variant-1-soft.state-12-hovered {
+  background-color: var(--transparenterror-16);
+}
+
+.button.variant-1-soft.state-12-hovered.color-primary {
+  background-color: var(--transparentprimary-16);
+}
+
+.button.color-secondary.state-12-hovered.variant-1-soft {
+  background-color: var(--transparentsecondary-16);
+}
+
+.button.variant-1-soft.state-12-hovered.color-warning {
+  background-color: var(--transparentwarning-16);
+}
+
+.button.variant-1-soft.color-primary.state-12-enabled {
+  background-color: var(--transparentprimary-8);
+}
+
+.button.variant-1-contained .label-2 {
+  margin-top: -1px;
+}
+
+.button.state-12-disabled .label-2 {
+  margin-top: -1px;
+}
+
+.button.size-7-m .label-2 {
+  font-family: var(--components-button-textmedium-font-family);
+  font-size: var(--components-button-textmedium-font-size);
+  font-style: var(--components-button-textmedium-font-style);
+  font-weight: var(--components-button-textmedium-font-weight);
+  letter-spacing: var(--components-button-textmedium-letter-spacing);
+  line-height: var(--components-button-textmedium-line-height);
+  text-align: center;
+}
+
+.button.size-7-l .label-2 {
+  font-family: var(--components-button-textlarge-font-family);
+  font-size: var(--components-button-textlarge-font-size);
+  font-style: var(--components-button-textlarge-font-style);
+  font-weight: var(--components-button-textlarge-font-weight);
+  letter-spacing: var(--components-button-textlarge-letter-spacing);
+  line-height: var(--components-button-textlarge-line-height);
+}
+
+.button.size-7-s .label-2 {
+  font-family: var(--components-button-textsmall-font-family);
+  font-size: var(--components-button-textsmall-font-size);
+  font-style: var(--components-button-textsmall-font-style);
+  font-weight: var(--components-button-textsmall-font-weight);
+  letter-spacing: var(--components-button-textsmall-letter-spacing);
+  line-height: var(--components-button-textsmall-line-height);
+}
+
+.button.state-12-enabled .label-2 {
+  margin-top: -1px;
+}
+
+.button.variant-1-text .label-2 {
+  margin-top: -1px;
+}
+
+.button.variant-1-soft .label-2 {
+  margin-top: -1px;
+}
+
+.button.variant-1-outlined.state-12-disabled .label-2 {
+  color: var(--actiondisabled);
+}
+
+.button.variant-1-soft.state-12-disabled .label-2 {
+  color: var(--actiondisabled);
+}
+
+.button.color-primary.variant-1-contained .label-2 {
+  color: var(--primarycontrasttext);
+}
+
+.button.state-12-hovered.variant-1-outlined .label-2 {
+  margin-top: -1.5px;
+}
+
+.button.variant-1-contained.color-info .label-2 {
+  color: var(--infocontrasttext);
+}
+
+.button.color-secondary.variant-1-contained .label-2 {
+  color: var(--secondarycontrasttext);
+}
+
+.button.variant-1-contained.color-warning .label-2 {
+  color: var(--warningcontrasttext);
+}
+
+.button.color-success.variant-1-contained .label-2 {
+  color: var(--successcontrasttext);
+}
+
+.button.color-inherit.state-12-disabled .label-2 {
+  color: var(--actiondisabled);
+}
+
+.button.color-error.variant-1-contained .label-2 {
+  color: var(--errorcontrasttext);
+}
+
+.button.variant-1-text.state-12-disabled .label-2 {
+  color: var(--actiondisabled);
+}
+
+.button.variant-1-text.color-success.state-12-enabled .label-2 {
+  color: var(--successmain);
+}
+
+.button.color-primary.state-12-hovered.variant-1-outlined .label-2 {
+  color: var(--primarymain);
+}
+
+.button.color-success.variant-1-soft.state-12-hovered .label-2 {
+  color: var(--componentsdark-lightsuccess);
+}
+
+.button.color-secondary.state-12-hovered.variant-1-outlined .label-2 {
+  color: var(--secondarymain);
+}
+
+.button.color-success.variant-1-soft.state-12-enabled .label-2 {
+  color: var(--componentsdark-lightsuccess);
+}
+
+.button.variant-1-text.color-error.state-12-hovered .label-2 {
+  color: var(--errormain);
+}
+
+.button.color-error.state-12-enabled.variant-1-outlined .label-2 {
+  color: var(--errormain);
+}
+
+.button.variant-1-text.state-12-hovered.color-info .label-2 {
+  color: var(--infomain);
+}
+
+.button.state-12-hovered.color-inherit.variant-1-outlined .label-2 {
+  color: var(--textprimary);
+}
+
+.button.variant-1-text.color-secondary.state-12-enabled .label-2 {
+  color: var(--secondarymain);
+}
+
+.button.variant-1-text.color-primary.state-12-enabled .label-2 {
+  color: var(--primarymain);
+}
+
+.button.color-success.state-12-hovered.variant-1-outlined .label-2 {
+  color: var(--successmain);
+}
+
+.button.variant-1-text.state-12-enabled.color-inherit .label-2 {
+  color: var(--textprimary);
+}
+
+.button.state-12-enabled.color-inherit.variant-1-contained .label-2 {
+  color: var(--componentsbuttoncontainedinherittext);
+}
+
+.button.variant-1-soft.color-warning.state-12-enabled .label-2 {
+  color: var(--componentsdark-lightwarning);
+}
+
+.button.state-12-enabled.variant-1-outlined.color-info .label-2 {
+  color: var(--infomain);
+}
+
+.button.variant-1-soft.color-inherit.state-12-enabled .label-2 {
+  color: var(--textprimary);
+}
+
+.button.variant-1-soft.state-12-hovered.color-inherit .label-2 {
+  color: var(--textprimary);
+}
+
+.button.color-primary.variant-1-outlined.state-12-enabled .label-2 {
+  color: var(--primarymain);
+}
+
+.button.color-info.variant-1-soft.state-12-enabled .label-2 {
+  color: var(--componentsdark-lightinfo);
+}
+
+.button.variant-1-text.state-12-hovered.color-warning .label-2 {
+  color: var(--warningmain);
+}
+
+.button.variant-1-text.color-secondary.state-12-hovered .label-2 {
+  color: var(--secondarymain);
+}
+
+.button.variant-1-text.color-success.state-12-hovered .label-2 {
+  color: var(--successmain);
+}
+
+.button.color-error.state-12-hovered.variant-1-outlined .label-2 {
+  color: var(--errormain);
+}
+
+.button.variant-1-text.state-12-enabled.color-warning .label-2 {
+  color: var(--warningmain);
+}
+
+.button.state-12-hovered.variant-1-outlined.color-warning .label-2 {
+  color: var(--warningmain);
+}
+
+.button.state-12-hovered.color-inherit.variant-1-contained .label-2 {
+  color: var(--componentsbuttoncontainedinherittext);
+}
+
+.button.variant-1-soft.state-12-hovered.color-info .label-2 {
+  color: var(--componentsdark-lightinfo);
+}
+
+.button.state-12-hovered.variant-1-outlined.color-info .label-2 {
+  color: var(--infomain);
+}
+
+.button.variant-1-text.color-error.state-12-enabled .label-2 {
+  color: var(--errormain);
+}
+
+.button.color-success.state-12-enabled.variant-1-outlined .label-2 {
+  color: var(--successmain);
+}
+
+.button.color-secondary.variant-1-outlined.state-12-enabled .label-2 {
+  color: var(--secondarymain);
+}
+
+.button.state-12-enabled.variant-1-outlined.color-warning .label-2 {
+  color: var(--warningmain);
+}
+
+.button.color-secondary.state-12-enabled.variant-1-soft .label-2 {
+  color: var(--componentsdark-lightsecondary);
+}
+
+.button.variant-1-text.state-12-hovered.color-inherit .label-2 {
+  color: var(--textprimary);
+}
+
+.button.state-12-enabled.color-inherit.variant-1-outlined .label-2 {
+  color: var(--textprimary);
+}
+
+.button.color-error.variant-1-soft.state-12-enabled .label-2 {
+  color: var(--componentsdark-lighterror);
+}
+
+.button.variant-1-text.color-primary.state-12-hovered .label-2 {
+  color: var(--primarymain);
+}
+
+.button.color-error.variant-1-soft.state-12-hovered .label-2 {
+  color: var(--componentsdark-lighterror);
+}
+
+.button.variant-1-text.state-12-enabled.color-info .label-2 {
+  color: var(--infomain);
+}
+
+.button.variant-1-soft.state-12-hovered.color-primary .label-2 {
+  color: var(--componentsdark-lightprimary);
+}
+
+.button.color-secondary.state-12-hovered.variant-1-soft .label-2 {
+  color: var(--componentsdark-lightsecondary);
+}
+
+.button.variant-1-soft.state-12-hovered.color-warning .label-2 {
+  color: var(--componentsdark-lightwarning);
+}
+
+.button.variant-1-soft.color-primary.state-12-enabled .label-2 {
+  color: var(--componentsdark-lightprimary);
+}

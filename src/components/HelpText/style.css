@@ -1,0 +1,41 @@
+.help-text {
+  align-items: center;
+  display: inline-flex;
+  gap: 4px;
+  position: relative;
+}
+
+.help-text .instance-node {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.help-text .helper-text {
+  font-family: var(--caption-font-family);
+  font-size: var(--caption-font-size);
+  font-style: var(--caption-font-style);
+  font-weight: var(--caption-font-weight);
+  letter-spacing: var(--caption-letter-spacing);
+  line-height: var(--caption-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.help-text .state-11-success {
+  color: var(--successmain);
+}
+
+.help-text .state-11-active {
+  color: var(--textsecondary);
+}
+
+.help-text .state-11-error {
+  color: var(--errormain);
+}
+
+.help-text .state-11-disabled {
+  color: var(--textdisabled);
+}

@@ -1,0 +1,41 @@
+.alert-overlay {
+    position: fixed ;
+    top: 0 ;
+    left: 0 ;
+    width: 100% ;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .alert-box {
+    background: linear-gradient(135deg, #57b3a7, #6fd1dd );; /* Override background color */
+    padding: 20px;
+    border-radius: 10px; /* Override border-radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Override box-shadow */
+    text-align: center;
+    font-family: Arial, sans-serif; /* Override font-family */
+    font-weight: 400; /* Override font-weight */
+    color: black; /* Override text color */
+  }
+  
+  .alert-message {
+    margin-bottom: 10px;
+  }
+  
+  .alert-ok-button {
+    padding: 12px 24px; /* Override button padding */
+    background-color: #73e473; /* Override button background color */
+    color: white; /* Override button text color */
+    border: none;
+    cursor: pointer;
+    border-radius: 10px; /* Override button border-radius */
+    font-size: 16px;
+  }
+  
+  .alert-ok-button:hover {
+    background-color: #0e0ef5; /* Override button hover background color */
+  }
+  

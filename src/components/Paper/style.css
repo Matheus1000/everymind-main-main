@@ -1,0 +1,35 @@
+.paper {
+  border-radius: 12px;
+  height: 102px;
+  overflow: hidden;
+  position: relative;
+  width: 177px;
+}
+
+.paper .bg {
+  -webkit-backdrop-filter: blur(40px) brightness(100%);
+  backdrop-filter: blur(40px) brightness(100%);
+  background-color: var(--componentspaperblur);
+  box-shadow: var(--paper-blur);
+  height: 102px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 177px;
+}
+
+.paper .cyan-blur {
+  height: 102px;
+  left: 33px;
+  position: absolute;
+  top: 0;
+  width: 144px;
+}
+
+.paper .red-blur {
+  height: 102px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 144px;
+}

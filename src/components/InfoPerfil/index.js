@@ -1,0 +1,1 @@
+export { InfoPerfil } from "./InfoPerfil";

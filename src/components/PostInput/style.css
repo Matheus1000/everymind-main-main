@@ -1,0 +1,133 @@
+
+.PostInput {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .stack {
+    background-color: #fff; /* Cor de fundo branca */
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra para destacar o modal */
+  }
+.user {
+    align-items: flex-start;
+    background-color: var(--backgroundpaper);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 0px 24px 24px 12px;
+    position: relative;
+    width: 1027px;
+  }
+  
+  .user .textarea {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    height: 236px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .user .input {
+    align-items: center;
+    align-self: stretch;
+    border: 1px solid;
+    border-color: var(--componentsinputoutlined);
+    border-radius: 8px;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    gap: 8px;
+    overflow: hidden;
+    padding: 0px 14px 16px 5px;
+    position: relative;
+  }
+  
+  .user .label-placeholder {
+    color: var(--textdisabled);
+    flex: 1;
+    font-family: var(--desktop-body2-font-family);
+    font-size: var(--desktop-body2-font-size);
+    font-style: var(--desktop-body2-font-style);
+    font-weight: var(--desktop-body2-font-weight);
+    letter-spacing: var(--desktop-body2-letter-spacing);
+    line-height: var(--desktop-body2-line-height);
+    position: relative;
+    width: 100%;
+  }
+  
+   .help-text-instance {
+    align-self: stretch ;
+    display: flex ;
+    flex: 0 0 auto ;
+    padding: 12px 5px 0px ;
+    width: 100% ;
+    color:rgb(118, 117, 118) ;
+    font-size: 15px;
+  }
+  
+  .user .stack {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+  }
+  
+  .user .actions {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .user .fab-soft-instance {
+    flex: 0 0 auto ;
+  }
+  
+  .user .design-component-instance-node {
+    margin-top: unset ;
+  }
+  
+  
+  .input {
+    align-items: center;
+    border: 1px solid;
+    border-color: #d6d6d6;
+    border-radius: 8px;
+    display: flex;
+    gap: 8px;
+    overflow: hidden;
+    padding: 80px 14px 16px 5px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .input .label-placeholder {
+    color: var(--textdisabled);
+    flex: 1;
+    font-family: var(--desktop-body2-font-family);
+    font-size: var(--desktop-body2-font-size);
+    font-style: var(--desktop-body2-font-style);
+    font-weight: var(--desktop-body2-font-weight);
+    letter-spacing: var(--desktop-body2-letter-spacing);
+    line-height: var(--desktop-body2-line-height);
+  }
+  
+  
+
+ 
+  

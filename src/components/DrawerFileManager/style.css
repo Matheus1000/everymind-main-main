@@ -1,0 +1,168 @@
+
+    .drawer-file-manager {
+       align-items: flex-start;  box-shadow: var(--shadow-drawerright);  display: flex;  flex-direction: column;  gap: 10px;  height: 1024px;  padding: 20px 0px 0px;  position: relative;  width: 320px; 
+    }
+  
+
+  
+
+    .drawer-file-manager .paper-instance {
+       border-radius: unset !important;  height: 1024px !important;  left: 0 !important;  position: absolute !important;  top: 0 !important;  width: 320px !important; 
+    }
+  
+
+  
+
+    .drawer-file-manager .design-component-instance-node {
+       height: 1024px !important;  width: 320px !important; 
+    }
+  
+
+  
+
+    .drawer-file-manager .paper-2 {
+       background-color: var(--transparentinfo-12) !important;  border-radius: 40px !important;  filter: blur(80px); height: 80px !important;  left: 256px !important;  top: -16px !important;  width: 80px !important; 
+    }
+  
+
+  
+
+    .drawer-file-manager .paper-3 {
+       background-color: var(--transparenterror-12) !important;  border-radius: 40px !important;  filter: blur(80px);  height: 80px !important;  left: -16px !important;  top: 960px !important;  width: 80px !important; 
+    }
+  
+
+  
+
+    .drawer-file-manager .image {
+       height: 112px;  object-fit: cover;  position: relative;  width: 312px; 
+    }
+  
+
+  
+
+    .drawer-file-manager .stack {
+       align-items: center;  align-self: stretch;  display: flex;  flex: 0 0 auto;  flex-direction: column;  gap: 15px;  justify-content: center;  padding: 100px 10px;  position: relative;  width: 100%; 
+    }
+  
+
+  
+
+    .drawer-file-manager .stack-2 {
+       align-items: center;  align-self: stretch;  display: flex;  flex: 0 0 auto;  gap: 154px;  justify-content: space-around;  padding: 30px 20px 30px 0px;  position: relative;  width: 100%; 
+    }
+  
+
+  
+
+    .drawer-file-manager .text {
+       color: var(--textprimary);  font-family: var(--desktop-h6-font-family);  font-size: var(--desktop-h6-font-size);  font-style: var(--desktop-h6-font-style);  font-weight: var(--desktop-h6-font-weight);  letter-spacing: var(--desktop-h6-letter-spacing);  line-height: var(--desktop-h6-line-height);  margin-top: -1.00px;  position: relative;  text-align: center;  white-space: nowrap;  width: fit-content; 
+    }
+  
+
+  
+
+    .drawer-file-manager .stack-3 {
+       align-items: center;  align-self: stretch;  display: flex;  flex: 0 0 auto;  flex-direction: column;  gap: 15px;  justify-content: center;  padding: 0px 10px;  position: relative;  width: 100%; 
+    }
+  
+
+  
+
+    .drawer-file-manager .text-field-instance {
+       flex: 0 0 auto !important;  margin-left: -22.00px !important;  margin-right: -22.00px !important;  padding: 10px !important;  width: 324px !important; 
+    }
+  
+
+  
+
+    .drawer-file-manager .text-field-2 {
+       padding: 10px !important; 
+    }
+  
+
+  
+
+    .drawer-file-manager .text-field-3 {
+       color: #212b3685 !important; 
+    }
+  
+
+  
+
+    .drawer-file-manager .text-field-4 {
+       width: 138px !important; 
+    }
+  
+
+  
+
+    .drawer-file-manager .text-field-5 {
+       align-items: flex-start;  display: flex;  flex: 0 0 auto;  flex-direction: column;  gap: 5px;  margin-left: -22.00px;  margin-right: -22.00px;  padding: 10px;  position: relative;  width: 324px; 
+    }
+  
+
+  
+
+    .drawer-file-manager .input-2 {
+       align-items: center;  align-self: stretch;  border: 1px solid;  border-color: var(--componentsinputoutlined);  border-radius: 8px;  display: flex;  flex: 0 0 auto;  gap: 8px;  padding: 10px;  position: relative;  width: 100%; 
+    }
+  
+
+  
+
+    .drawer-file-manager .email {
+       color: var(--textprimary);  flex: 1;  font-family: var(--desktop-body2-font-family);  font-size: var(--desktop-body2-font-size);  font-style: var(--desktop-body2-font-style);  font-weight: var(--desktop-body2-font-weight);  letter-spacing: var(--desktop-body2-letter-spacing);  line-height: var(--desktop-body2-line-height);  margin-top: -1.00px;  position: relative; 
+    }
+  
+
+  
+
+    .drawer-file-manager .label-focus-3 {
+       align-items: center;  display: inline-flex;  left: 14px;  padding: 0px 2px 0px 0px;  position: absolute;  top: -5px; 
+    }
+  
+
+  
+
+    .drawer-file-manager .mask-label-2 {
+       background-color: var(--backgroundpaper);  height: 2px;  left: 0;  position: absolute;  top: 5px;  width: 38px; 
+    }
+  
+
+  
+
+    .drawer-file-manager .label-3 {
+       color: var(--textsecondary);  font-family: var(--components-inputlabel-font-family);  font-size: var(--components-inputlabel-font-size);  font-style: var(--components-inputlabel-font-style);  font-weight: var(--components-inputlabel-font-weight);  letter-spacing: var(--components-inputlabel-letter-spacing);  line-height: var(--components-inputlabel-line-height);  margin-top: -1.00px;  position: relative;  white-space: nowrap;  width: fit-content; 
+    }
+  
+
+  
+
+    .drawer-file-manager .help-text-instance {
+       align-self: stretch !important;  display: flex !important;  flex: 0 0 auto !important;  justify-content: center !important;  width: 100% !important; 
+    }
+  
+
+  
+
+    .drawer-file-manager .button-instance {
+       align-self: stretch !important;  background: radial-gradient(50% 50% at 50% 50%, rgb(47, 194, 134) 0%, rgb(49, 169, 185) 100%) !important;  background-color: unset !important;  display: flex !important;  flex: 0 0 auto !important;  padding: 5px 10px !important;  width: 100% !important; 
+    }
+  
+
+  
+
+    .drawer-file-manager .button-2 {
+       color: #000000 !important; 
+    }
+  
+
+  
+
+    .drawer-file-manager .label-4 {
+       color: #000000;  font-family: var(--components-button-textmedium-font-family);  font-size: var(--components-button-textmedium-font-size);  font-style: var(--components-button-textmedium-font-style);  font-weight: var(--components-button-textmedium-font-weight);  letter-spacing: var(--components-button-textmedium-letter-spacing);  line-height: var(--components-button-textmedium-line-height);  position: relative;  text-align: center;  white-space: nowrap;  width: fit-content; 
+    }
+  
+
+  

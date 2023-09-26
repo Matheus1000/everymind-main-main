@@ -1,0 +1,1 @@
+export {BigCardInscrevase} from "./BigCardInscrevase"

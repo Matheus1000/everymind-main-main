@@ -1,0 +1,14 @@
+.title h2 {
+    color: #212b36;
+}
+
+.inputSelect label{
+    color: #212b36;
+display: flex;
+font-size: 12px;
+}
+
+.form input{
+    margin-top: 10px;
+}
+
