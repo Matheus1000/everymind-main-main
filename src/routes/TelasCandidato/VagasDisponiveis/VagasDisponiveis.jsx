@@ -1,5 +1,5 @@
 import React from "react";
-import { BigCardInscrevase } from "../../../components/BigCardInscrevase";
+import  {BigCardInscrevase}  from "../../../components/BigCardInscrevase";
 
 const VagasDisponiveis = () => {
   const containerStyle = {
@@ -33,7 +33,7 @@ const VagasDisponiveis = () => {
 
   const cards = Array.from({ length: 6 }, (_, index) => (
     <div key={index} style={cardStyles}>
-      <BigCardInscrevase />
+      <BigCardInscrevase name={'Cielo'} role={'Teste'}/>
     </div>
   ));
 
