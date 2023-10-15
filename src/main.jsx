@@ -9,6 +9,7 @@ import CadastroUsuario from './routes/CadastroUsuario/CadastroUsuario.jsx'
 import CadastroEmpresa from './routes/CadastroEmpresa/CadastroEmpresa.jsx'
 
 import Candidato from './routes/TelasCandidato/Candidato/Candidato.jsx'
+import Empresa from './routes/TelasEmpresa/Empresa/Empresa.jsx'
 
 import Perfil from './routes/TelasCandidato/Perfil/Perfil.jsx'
 import VagasUsuario from './routes/TelasCandidato/MinhasVagas/MinhasVagas.jsx'
@@ -16,6 +17,13 @@ import TestesUsuario from './routes/TelasCandidato/Testes/TestesUsuario.jsx'
 import Entrevistas from './routes/TelasCandidato/Entrevistas/Entrevistas.jsx'
 import Feedbacks from './routes/TelasCandidato/Feedbacks/Feedbacks.jsx'
 import VagasDisponiveis from './routes/TelasCandidato/VagasDisponiveis/VagasDisponiveis.jsx'
+
+import VagasCadastradas from './routes/TelasEmpresa/cadastrarVaga/cadastrarVaga.jsx'
+import CadastrarVaga from './routes/TelasEmpresa/vagasCadastradas/vagasCadastradas.jsx'
+import Dashboard from './routes/TelasEmpresa/DashBoard/Dashboard.jsx'
+import EntrevistasEmp from './routes/TelasEmpresa/Entrevistas/Entrevistas.jsx'
+import FeedbackEmp from './routes/TelasEmpresa/Feedbacks/Feedback.jsx'
+
 
 
 
@@ -48,6 +56,17 @@ const router = createBrowserRouter(
         <Route path='Feedbacks' element={<Feedbacks/>}/>
 
       </Route>
+      <Route path='/Empresa' element={<Empresa/>}>
+          <Route path='VagasCadastradas' element={<VagasCadastradas/>}/>
+          <Route path='CadastrarVaga' element={<CadastrarVaga/>}/>
+          <Route path='Dashboard' element={<Dashboard/>}/>
+          <Route path='Entrevistas' element={<EntrevistasEmp/>}/>
+          <Route path='Feedbacks' element={<FeedbackEmp/>}/>
+
+
+
+      </Route>
+      
 
       {/*<Route path='/' element={<UserPanel/>}>
         <Route path='/Conta' element={<UserConta/>}/>

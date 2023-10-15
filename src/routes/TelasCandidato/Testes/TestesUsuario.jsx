@@ -17,7 +17,7 @@ const TestesUsuario = () => {
 
   const cards = Array.from({ length: 2 }, (_, index) => (
     <div key={index} style={cardStyles}>
-      <CardTestes />
+      <CardTestes name={"IBM"} role="Junior"/>
     </div>
   ));
   return (

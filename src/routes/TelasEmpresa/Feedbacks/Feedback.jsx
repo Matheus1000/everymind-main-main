@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 
-const Feedback = () => {
+const FeedbackEmp = () => {
 
 };
 
-export default Feedback;
+export default FeedbackEmp;
