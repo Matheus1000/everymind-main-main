@@ -59,15 +59,15 @@ const Login = () => {
             <img
               src="https://c.animaapp.com/RLL3gMW3/img/image-11-1@2x.png"
               style={{
-                width: "60%",
-                marginBottom: "20px",
+                width: "80%",
+                margin: "0 auto",
                 height: "100px",
               }}
             />
           </div>
 
-          <div className="title">
-            <h2>Login</h2>
+          <div className="my-5">
+            <h2 className="text-xl">Login</h2>
           </div>
 
           <input
@@ -76,8 +76,8 @@ const Login = () => {
             value={email}
             onChange={handleEmailChange}
             style={{
-              width: "80%",
-              marginBottom: "10px",
+              width: "90%",
+              margin: "1em 0",
               border: "1px solid",
               borderColor: " #d6d6d6",
               borderRadius: "8px",
@@ -93,11 +93,11 @@ const Login = () => {
           />
 
           <div className="inputSelect">
-            <label>Selecione sua ocupação</label>
+            <label className="m-3 font-xg">Selecione sua ocupação</label>
             <select
               style={{
-                width: "85%",
-                marginBottom: "10px",
+                width: "90%",
+                margin: "1em 0",
                 border: "1px solid",
                 borderColor: " #d6d6d6",
                 borderRadius: "8px",
@@ -123,8 +123,8 @@ const Login = () => {
             value={password}
             onChange={handlePasswordChange}
             style={{
-              width: "80%",
-              marginBottom: "10px",
+              width: "90%",
+              margin: "2em 0",
               border: "1px solid",
               borderColor: " #d6d6d6",
               borderRadius: "8px",
@@ -157,7 +157,7 @@ const Login = () => {
                 outline: "none",
               }}
             >
-              Esqueci Minha Senha
+              <span className="text-sm">Esqueci Minha Senha</span>
             </NavLink>
           </button>
 
@@ -172,8 +172,11 @@ const Login = () => {
               background:
                 "radial-gradient(50% 50% at 50% 50%, rgb(47, 194, 134) 0%, rgb(49, 169, 185) 100%) ",
               backgroundColor: "unset",
-              width: "80%",
+              width: "90%",
               outline: "none",
+              borderRadius: "7px",
+              margin: "2em 0",
+              height: "2.5em"
             }}
           >
             <span>Login</span>
@@ -186,6 +189,8 @@ const Login = () => {
               marginBottom: "10px",
               backgroundColor: "transparent",
               color: "#010101",
+              
+
             }}
           >
             <NavLink
@@ -196,9 +201,13 @@ const Login = () => {
               }
               style={{
                 color: "#000000",
+                fontSize: "1em",
+
+
+            
               }}
             >
-              Cadastre-se
+              <span >Cadastre-se</span>
             </NavLink>
           </button>
         </div>

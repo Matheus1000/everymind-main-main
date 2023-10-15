@@ -7,25 +7,9 @@ const TestesUsuario = () => {
     display: "grid",
     gridTemplateColumns: "repeat(2, 1fr)",
     gridGap: "20px",
-    marginTop: "23%",
-  };
-  const styleText = {
-    color: "black",
-    height: "100px",
-    position: "absolute",
-    top: "5%",
-    left: "20%",
-    fontSize: "24px",
+    marginTop: "5em",
   };
 
-  const styleText2 = {
-    color: "#555555",
-    height: "100px",
-    position: "absolute",
-    top: "15%",
-    left: "20%",
-    fontSize: "14px",
-  };
 
   const cardStyles = {
     padding: "10px",
@@ -38,11 +22,9 @@ const TestesUsuario = () => {
   ));
   return (
     <div>
-      <h1 style={styleText}>Conta</h1>
-      <h2 style={styleText2}>
-        Testes - Você poderá fazer os testes solicitados pela empresa nesta
-        área, basta clicar em "Iniciar Teste" e o teste, seja redação ou teste
-        lógico, irá aparecer.{" "}
+      <h1 className="text-left decoration-black h24 text-3xl px-10">Conta</h1>
+      <h2 className="flex space-x-4 px-10 mt-10 italic text-[#555555]">
+        Testes{" "}
       </h2>
       <div style={containerStyle}>{cards}</div>
     </div>

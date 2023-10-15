@@ -22,9 +22,9 @@ const Entrevistas = () => {
   };
   return (
     <div>
-      <h1 style={styleText}>Conta</h1>
-      <h2 style={styleText2}>
-        Entrevistas - Aqui estão os status das suas entrevistas
+      <h1 className="text-left decoration-black h24 text-3xl px-10">Conta</h1>
+      <h2 className="flex space-x-4 px-10 mt-10 italic text-[#555555]">
+        Entrevistas e Feedbacks
       </h2>
       <CardEntrevistas />
     </div>

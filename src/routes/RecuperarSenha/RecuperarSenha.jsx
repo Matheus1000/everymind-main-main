@@ -6,7 +6,6 @@ const RecuperarSenha = () => {
     left: 0,
     top: 0,
     height: "100%",
-    width: "25%",
     backgroundColor: "#ffff",
     padding: "20px",
     boxShadow: "2px 0 10px -1px rgba(0, 0, 0, 0.5)",
@@ -17,31 +16,30 @@ const RecuperarSenha = () => {
       <div
         style={{
           width: "100%",
-          marginTop: "-20px",
-          top: "10px",
+          margin: "2em 0"
         }}
       >
         <div>
           <img
             src="https://c.animaapp.com/RLL3gMW3/img/image-11-1@2x.png"
             style={{
-              width: "60%",
-              marginBottom: "20px",
+              width: "80%",
+              margin: "3em auto",
               height: "100px",
             }}
           />{" "}
         </div>
         <div className="title">
-          <h2>Recuperar a senha</h2>{" "}
+          <h2 className="text-lg my-4">Recuperar a senha</h2>{" "}
         </div>
 
-        <label>Email</label>
+        <label className="text-base my-6">Email</label>
         <input
           type="text"
           placeholder="Digite aqui seu email"
           style={{
-            width: "80%",
-            marginBottom: "10px",
+            width: "90%",
+            margin: "1em 0",
             border: "1px solid",
             borderColor: " #d6d6d6",
             borderRadius: "8px",
@@ -60,8 +58,6 @@ const RecuperarSenha = () => {
         <button
           style={{
             flex: 1,
-            marginRight: "5px",
-            marginBottom: "10px",
             border:
               "1px solid var(--transparent-primary-48, rgba(0, 167, 111, 0.48))",
             background:
@@ -70,6 +66,9 @@ const RecuperarSenha = () => {
             width: "80%",
             color: "#000000",
             outline: "none",
+            borderRadius: "7px",
+            margin: "2em 0",
+            height: "2.5em"
           }}
         >
           Recuperar
