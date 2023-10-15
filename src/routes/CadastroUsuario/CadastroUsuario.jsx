@@ -50,7 +50,7 @@ const CadastroUsuario = () => {
             src="https://c.animaapp.com/RLL3gMW3/img/image-11-1@2x.png"
             style={{
               width: "60%",
-              marginBottom: "20px",
+              margin: "2em auto",
               height: "100px",
             }}
           />

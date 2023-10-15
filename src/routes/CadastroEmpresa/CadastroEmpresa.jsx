@@ -7,10 +7,11 @@ const CadastroEmpresa = () => {
     left: 0,
     top: 0,
     height: "100%",
-    width: "25%",
+
     backgroundColor: "#ffff",
     padding: "20px",
     boxShadow: "2px 0 10px -1px rgba(0, 0, 0, 0.5)",
+  
   };
 
   return (
@@ -18,7 +19,6 @@ const CadastroEmpresa = () => {
       <div
         style={{
           width: "100%",
-          marginTop: "-10px",
           top: "10px",
         }}
       >
@@ -27,7 +27,7 @@ const CadastroEmpresa = () => {
             src="https://c.animaapp.com/RLL3gMW3/img/image-11-1@2x.png"
             style={{
               width: "60%",
-              marginBottom: "20px",
+              margin: "2em auto",
               height: "100px",
             }}
           />

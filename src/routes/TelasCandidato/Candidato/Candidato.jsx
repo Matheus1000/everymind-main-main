@@ -9,14 +9,14 @@ const Candidato = () => {
       <div>
         <Outlet />
       </div>
-      <div className="navbar">
-        <div className="profile-section">
+      <div className="flex bg-teal-500 justify-between items-center p100 mb-10 ">
+        <div className="flex m-20 items-center ">
           <img
-            className="profile-image"
+            className="mr-10 rounded-full"
             src="/src/assets/Avatar.png"
             alt="Profile"
           />
-          <div>Caique Lopes</div>
+          <div className="text-xl text-white">Matheus Costa</div>
         </div>
         <div className="buttonWrapper">
           <button className="buttonFirst">
