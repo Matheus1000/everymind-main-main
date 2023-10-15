@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 
-const Entrevistas = () => {
+const EntrevistasEmp = () => {
 
 };
 
-export default Entrevistas;
+export default EntrevistasEmp;

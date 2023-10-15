@@ -33,7 +33,7 @@
   }
   
   .user .stack2 {
-    align-items: start;
+
     display: flex;
     flex: 0 0 auto;
     flex-direction: column;
