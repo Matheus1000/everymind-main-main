@@ -23,7 +23,7 @@ const RecuperarSenha = () => {
           <img
             src="https://c.animaapp.com/RLL3gMW3/img/image-11-1@2x.png"
             style={{
-              width: "60%",
+              width: "80%",
               margin: "3em auto",
               height: "100px",
             }}

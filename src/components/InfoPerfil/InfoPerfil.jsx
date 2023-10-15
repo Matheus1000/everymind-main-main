@@ -73,7 +73,7 @@ export const InfoPerfil = () => {
               placeholder="Sobre"
               className="outlined-input large-input"
             />
-          </div>
+          </div >
 
           <Button
             className="button-instance"

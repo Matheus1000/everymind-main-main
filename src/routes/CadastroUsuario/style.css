@@ -1,9 +1,25 @@
-.title h2 {
-    color: #212b36;
-    margin-top: -35px;
-}
+
  label{
     color: #212b36;
-display: flex;
-font-size: 12px;
+    display: flex;
+    font-size: 12px;
+}
+
+.containerStyle{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 25%;
+    background-color: "#ffff";
+    padding: 20px;
+    box-shadow: 2px 0 10px -1px rgba(0, 0, 0, 0.5);
+    overflow-y: scroll;
+}
+
+.containerStyle::-webkit-scroll{
+    background: #ccc;
+    width: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
