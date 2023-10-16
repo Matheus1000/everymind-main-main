@@ -54,7 +54,7 @@ const Candidato = () => {
 
         <button className="buttonFirst">
           <Link to="/Candidato/Feedbacks" style={{ color: "#ffffff " }}>
-            Dashboard
+            Feedbacks
           </Link>
         </button>
       </div>

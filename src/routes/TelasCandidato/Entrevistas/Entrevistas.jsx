@@ -1,32 +1,19 @@
-import { Outlet } from "react-router-dom";
-import { BigCard } from "../../../components/BigCard";
 import { CardEntrevistas } from "../../../components/CardEntrevistas";
 
 const Entrevistas = () => {
-  const styleText = {
-    color: "black",
-    height: "100px",
-    position: "absolute",
-    top: "5%",
-    left: "20%",
-    fontSize: "24px",
-  };
-
-  const styleText2 = {
-    color: "#555555",
-    height: "100px",
-    position: "absolute",
-    top: "15%",
-    left: "20%",
-    fontSize: "14px",
-  };
   return (
     <div>
       <h1 className="text-left decoration-black h24 text-3xl px-10">Conta</h1>
       <h2 className="flex space-x-4 px-10 mt-10 italic text-[#555555]">
-        Entrevistas e Feedbacks
+        Entrevistas
       </h2>
-      <CardEntrevistas />
+      <div className="flex content-center justify-center m-20">
+        <div className="flex items-center space-x-8 p10">
+          <div><CardEntrevistas /></div>
+          <div><CardEntrevistas /></div>
+          <div><CardEntrevistas /></div>
+        </div>
+      </div>
     </div>
   );
 };

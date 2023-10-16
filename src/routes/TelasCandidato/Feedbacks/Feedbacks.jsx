@@ -1,23 +1,21 @@
-const PowerBIEmbed = () => {
-  return (
-    <iframe
-      title="EveryMind"
-      width="100%"
-      height="700px"
-      src="https://app.powerbi.com/reportEmbed?reportId=25cc18b0-7f19-4b5f-8933-4755a7267c58&autoAuth=true&ctid=11dbbfe2-89b8-4549-be10-cec364e59551"
-      allowFullScreen={true}
-    ></iframe>
-  );
-};
+import { CardEntrevistas } from "../../../components/CardEntrevistas";
 
 const Feedbacks = () => {
   return (
-    <div className="p-5">
-      <h1 className="text-left decoration-black h24 text-3xl mb-20 ">Dashboard</h1>
-  
-      <PowerBIEmbed />
+    <div>
+      <h1 className="text-left decoration-black h24 text-3xl px-10">Conta</h1>
+      <h2 className="flex space-x-4 px-10 mt-10 italic text-[#555555]">
+        Entrevistas e Feedbacks
+      </h2>
+      <div className="flex content-center justify-center m-20">
+        <div className="flex items-center space-x-8 p10">
+          <div><CardEntrevistas /></div>
+          <div><CardEntrevistas /></div>
+          <div><CardEntrevistas /></div>
+        </div>
+      </div>
     </div>
-  );
+    );
 };
 
 export default Feedbacks;
